@@ -6,6 +6,7 @@ dist/
 build/
 .venv/
 venv/
+_git_init.sh
 
 # local recon / generated scope — do not commit
 *.csv
