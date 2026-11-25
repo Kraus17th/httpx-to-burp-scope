@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "httpx-to-burp"
+version = "1.0.0"
+description = "Convert httpx CSV output to Burp Suite Target Scope (.txt)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Kraus17th" }]
+keywords = ["httpx", "burp", "scope", "pentest"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Kraus17th/httpx-to-burp-scope"
+Repository = "https://github.com/Kraus17th/httpx-to-burp-scope"
+
+[project.scripts]
+httpx-to-burp = "httpx_to_burp:main"
+
+[tool.setuptools]
+py-modules = ["httpx_to_burp"]

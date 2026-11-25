@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# local recon / generated scope — do not commit
+*.csv
+burp-scope.txt
+burp-scope.json
+*-scope.txt
